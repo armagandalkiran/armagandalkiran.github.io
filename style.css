@@ -281,7 +281,17 @@ header {
   text-align: center;
 }
 
+.skills--images-container{
+  display:flex;
+}
+
 .skills--image {
+  padding:30px;
+  filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.mongo {
+  width: 180px;
 }
 
 .projects--container {
@@ -441,8 +451,17 @@ header {
     margin: 50px;
   }
 
+  .skills--images-container{
+    display:flex;
+  }
+
   .skills--image {
-    width: 650px;
+    width: 40px;
+    padding:25px;
+  }
+
+  .mongo {
+    width: 120px;
   }
 
   .skills--title {
@@ -596,7 +615,12 @@ header {
     font-size: 24px;
   }
   .skills--image {
-    width: 280px;
+    width: 20px;
+    padding: 7px;
+  }
+
+  .mongo {
+    width: 70px;
   }
 
   .projects--title {
