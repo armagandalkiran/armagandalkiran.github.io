@@ -87,6 +87,7 @@ header {
 .header--content-item {
   margin: 10px;
   cursor: pointer;
+  display:flex;
 }
 
 .header--icon {
@@ -478,6 +479,10 @@ header {
     font-size: 16px;
   }
 
+  .projects--link {
+    font-size:16px;
+  }
+
   .projects--right-icon {
     width: 6px;
     margin-left: 5px;
@@ -621,6 +626,10 @@ header {
 
   a {
     font-size: 14px;
+  }
+
+  .projects--link {
+    font-size:14px;
   }
 
   .projects--right-icon {
